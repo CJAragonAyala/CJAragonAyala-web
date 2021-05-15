@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/foo-tab/xczc.md",
-            "mode": "source"
+            "file": "docs/index.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/foo-tab/xczc.md",
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/foo-tab/xczc.md"
+                "file": "docs/index.md"
               }
             }
           }
@@ -98,15 +98,15 @@
   },
   "active": "f6b06ccf980f6603",
   "lastOpenFiles": [
+    "docs/index.md",
+    "docs/tutorial.md",
     "docs/foo-tab/Untitled.md",
     "docs/tab4/Untitled.md",
     "README.md",
     "docs/prueba.md",
     "demo-mkdocs.png",
     "README-zh.md",
-    "docs/tutorial.md",
     "docs/test.md",
-    "docs/index.md",
     "docs/attachment/portrait.png"
   ]
 }
