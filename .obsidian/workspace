@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/tutorial.md",
+            "file": "docs/prueba.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/tutorial.md",
+                "file": "docs/prueba.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -76,6 +76,16 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9b46e75237d8928e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/prueba.md"
               }
             }
           }
@@ -88,9 +98,10 @@
   },
   "active": "f6b06ccf980f6603",
   "lastOpenFiles": [
+    "docs/prueba.md",
+    "README.md",
     "docs/tutorial.md",
     "docs/test.md",
-    "docs/prueba.md",
     "docs/index.md",
     "docs/attachment/portrait.png",
     "docs/Untitled.md"
