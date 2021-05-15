@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/tab4/cdd.md",
+            "file": "docs/foo-tab/xczc.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/tab4/cdd.md",
+                "file": "docs/foo-tab/xczc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/tab4/cdd.md"
+                "file": "docs/foo-tab/xczc.md"
               }
             }
           }
@@ -98,6 +98,7 @@
   },
   "active": "f6b06ccf980f6603",
   "lastOpenFiles": [
+    "docs/foo-tab/Untitled.md",
     "docs/tab4/Untitled.md",
     "README.md",
     "docs/prueba.md",
@@ -106,7 +107,6 @@
     "docs/tutorial.md",
     "docs/test.md",
     "docs/index.md",
-    "docs/attachment/portrait.png",
-    "docs/Untitled.md"
+    "docs/attachment/portrait.png"
   ]
 }
