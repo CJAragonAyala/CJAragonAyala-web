@@ -8,6 +8,8 @@ xvcbcvbxcvbcvb
 
 ![imagen prueba](attachment/portrait.png)
 
+![[portrait.png]]
+
 # hohohoho
 
 
