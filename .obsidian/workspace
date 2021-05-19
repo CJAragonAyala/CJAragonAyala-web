@@ -4,15 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "f6b06ccf980f6603",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "docs/index.md",
-            "mode": "preview"
+        "id": "7557ad8f34053c42",
+        "type": "split",
+        "children": [
+          {
+            "id": "c0b9494b17725218",
+            "type": "leaf",
+            "dimension": 50.06165228113441,
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Medical Knowledge/Medidas generales de soporte vital.md",
+                "mode": "source"
+              },
+              "pinned": true
+            },
+            "group": "74187cf5685c4712"
+          },
+          {
+            "id": "28d7e6de7f86ecf1",
+            "type": "leaf",
+            "dimension": 49.9383477188656,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Medical Knowledge/Medidas generales de soporte vital.md",
+                "mode": "preview"
+              }
+            },
+            "group": "74187cf5685c4712"
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -68,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Medical Knowledge/Medidas generales de soporte vital.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md"
+                "file": "docs/Medical Knowledge/Medidas generales de soporte vital.md"
               }
             }
           }
@@ -96,17 +120,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f6b06ccf980f6603",
+  "active": "c0b9494b17725218",
   "lastOpenFiles": [
+    "docs/Medical Knowledge/Medidas generales de soporte vital.md",
+    "docs/Medical Knowledge/MK Manejo general de soporte vital.md",
+    "docs/Medical Knowledge/MK Index.md",
+    "docs/Untitled.md",
+    "docs/Medical Knowledge/Untitled.md",
+    "docs/Research Knowledge/Untitled.md",
+    "docs/Programming Knowledge/Untitled.md",
     "docs/index.md",
     "docs/tutorial.md",
-    "docs/foo-tab/Untitled.md",
-    "docs/tab4/Untitled.md",
-    "README.md",
-    "docs/prueba.md",
-    "demo-mkdocs.png",
-    "README-zh.md",
-    "docs/test.md",
-    "docs/attachment/portrait.png"
+    "docs/foo-tab/Untitled.md"
   ]
 }
