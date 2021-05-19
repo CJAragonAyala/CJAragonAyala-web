@@ -15,7 +15,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Medical Knowledge/MK Index.md",
                 "mode": "source"
               },
               "pinned": true
@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Medical Knowledge/MK Index.md",
                 "mode": "preview"
               }
             },
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Medical Knowledge/MK Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md"
+                "file": "docs/Medical Knowledge/MK Index.md"
               }
             }
           }
@@ -122,13 +122,13 @@
   },
   "active": "c0b9494b17725218",
   "lastOpenFiles": [
+    "docs/Medical Knowledge/MK Index.md",
+    "docs/Medical Knowledge/MK Manejo general de soporte vital.md",
     "docs/index.md",
     "README.md",
     "docs/Medical Knowledge/Medidas generales de soporte vital.md",
     "personal/UNSA seminarios.md",
     "personal/Untitled.md",
-    "docs/Medical Knowledge/MK Manejo general de soporte vital.md",
-    "docs/Medical Knowledge/MK Index.md",
     "docs/Untitled.md",
     "docs/Medical Knowledge/Untitled.md",
     "docs/Research Knowledge/Untitled.md"
