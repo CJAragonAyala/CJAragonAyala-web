@@ -15,7 +15,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Medical Knowledge/Medidas generales de soporte vital.md",
+                "file": "personal/UNSA seminarios.md",
                 "mode": "source"
               },
               "pinned": true
@@ -29,8 +29,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Medical Knowledge/Medidas generales de soporte vital.md",
-                "mode": "preview"
+                "file": "personal/UNSA seminarios.md",
+                "mode": "source"
               }
             },
             "group": "74187cf5685c4712"
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Medical Knowledge/Medidas generales de soporte vital.md",
+                "file": "personal/UNSA seminarios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Medical Knowledge/Medidas generales de soporte vital.md"
+                "file": "personal/UNSA seminarios.md"
               }
             }
           }
@@ -122,6 +122,7 @@
   },
   "active": "c0b9494b17725218",
   "lastOpenFiles": [
+    "personal/Untitled.md",
     "docs/Medical Knowledge/Medidas generales de soporte vital.md",
     "docs/Medical Knowledge/MK Manejo general de soporte vital.md",
     "docs/Medical Knowledge/MK Index.md",
@@ -130,7 +131,6 @@
     "docs/Research Knowledge/Untitled.md",
     "docs/Programming Knowledge/Untitled.md",
     "docs/index.md",
-    "docs/tutorial.md",
-    "docs/foo-tab/Untitled.md"
+    "docs/tutorial.md"
   ]
 }
