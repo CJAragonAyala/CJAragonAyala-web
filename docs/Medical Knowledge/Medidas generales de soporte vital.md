@@ -3,7 +3,7 @@ evaluar gravedad
 
 Reconocimiento del paciente grave
 
-![[attachment/Pasted image 20210518213356.png]]
+![[Pasted image 20210518213356.png]]
 
 Q: ¿Por qué debe hacerse un reconocimiento precoz?
 A: para manejar precozmente, evitando progresión y complicaciones de la enfermedad
