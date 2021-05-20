@@ -4,23 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "c0b9494b17725218",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "docs/Medical Knowledge/Comprehensive Human Physiology.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
         "id": "f1ebf82919ef005d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/Medical Knowledge/MK Index.md",
+            "file": "docs/Learning Knowledge/Gráficos para el aprendizaje - Clark.md",
             "mode": "source"
           }
         }
@@ -63,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 276
   },
   "right": {
     "id": "b3aacce4f92af227",
@@ -79,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Medical Knowledge/MK Index.md",
+                "file": "docs/Learning Knowledge/Gráficos para el aprendizaje - Clark.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Medical Knowledge/MK Index.md"
+                "file": "docs/Learning Knowledge/Gráficos para el aprendizaje - Clark.md"
               }
             }
           }
@@ -109,15 +98,15 @@
   },
   "active": "f1ebf82919ef005d",
   "lastOpenFiles": [
+    "docs/Learning Knowledge/Gráficos para el aprendizaje - Clark.md",
+    "docs/Graphic Design Knowledge/Untitled.md",
+    "docs/Research Knowledge/Untitled.md",
+    "docs/Medical Knowledge/Untitled.md",
     "docs/Medical Knowledge/MK Index.md",
     "docs/Medical Knowledge/Shock Hipovolémico.md",
     "docs/Medical Knowledge/Medidas generales de soporte vital.md",
     "docs/Medical Knowledge/Comprehensive Human Physiology.md",
     "docs/Programming Knowledge/Untitled.md",
-    "docs/Programming Knowledge/Recursos Vim.md",
-    "docs/Programming Knowledge/PK index.md",
-    "docs/Programming Knowledge/ignorar todos los archivos de carpeta.md",
-    "docs/Medical Knowledge/MK Manejo general de soporte vital.md",
-    "docs/index.md"
+    "docs/Programming Knowledge/Recursos Vim.md"
   ]
 }
