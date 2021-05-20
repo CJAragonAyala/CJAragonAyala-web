@@ -4,39 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "7557ad8f34053c42",
-        "type": "split",
-        "children": [
-          {
-            "id": "c0b9494b17725218",
-            "type": "leaf",
-            "dimension": 50.06165228113441,
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Medical Knowledge/MK Index.md",
-                "mode": "source"
-              },
-              "pinned": true
-            },
-            "group": "74187cf5685c4712"
-          },
-          {
-            "id": "28d7e6de7f86ecf1",
-            "type": "leaf",
-            "dimension": 49.9383477188656,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Medical Knowledge/MK Index.md",
-                "mode": "preview"
-              }
-            },
-            "group": "74187cf5685c4712"
+        "id": "c0b9494b17725218",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "docs/Medical Knowledge/Comprehensive Human Physiology.md",
+            "mode": "source"
           }
-        ],
-        "direction": "horizontal"
+        }
+      },
+      {
+        "id": "f1ebf82919ef005d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "docs/Medical Knowledge/MK Index.md",
+            "mode": "source"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -120,17 +107,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c0b9494b17725218",
+  "active": "f1ebf82919ef005d",
   "lastOpenFiles": [
     "docs/Medical Knowledge/MK Index.md",
-    "docs/Medical Knowledge/MK Manejo general de soporte vital.md",
-    "docs/index.md",
-    "README.md",
+    "docs/Medical Knowledge/Shock Hipovolémico.md",
     "docs/Medical Knowledge/Medidas generales de soporte vital.md",
-    "personal/UNSA seminarios.md",
-    "personal/Untitled.md",
-    "docs/Untitled.md",
-    "docs/Medical Knowledge/Untitled.md",
-    "docs/Research Knowledge/Untitled.md"
+    "docs/Medical Knowledge/Comprehensive Human Physiology.md",
+    "docs/Programming Knowledge/Untitled.md",
+    "docs/Programming Knowledge/Recursos Vim.md",
+    "docs/Programming Knowledge/PK index.md",
+    "docs/Programming Knowledge/ignorar todos los archivos de carpeta.md",
+    "docs/Medical Knowledge/MK Manejo general de soporte vital.md",
+    "docs/index.md"
   ]
 }

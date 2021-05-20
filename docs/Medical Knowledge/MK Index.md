@@ -8,7 +8,10 @@
 
 - Reconocimiento y manejo de la insuficiencia respiratoria aguda
 
-- Shock Hipovolémico
+- [[Shock Hipovolémico]]
 
 - Coma Metabólico
 
+## Fisiología
+
+- [[Comprehensive Human Physiology]] by R. Greger
