@@ -12,15 +12,17 @@
 	- transformacional: muestra relaciones espacio-temporales (movimiento, tiempo), como animaciones o series estáticas, controlado o no controlado por el usuario. 
 	- interpretativa: mostrando entidades invisibles o abstractas, y sus relaciones. gráficos de líneas simples útiles.
 ### proceso cognitivo que favorece:
-- atención
-- memoria de trabajo
-- activación de conocimiento previo
-- transferencia de conocimiento
-- motivación
-- construcción/expansión de modelos mentales
+- atención (no sobrecargar memoria de trabajo (MT))
+- activación de conocimiento previo (o activarlo o crearlo previo a la lección, hacerle recordar algo que ya sabe y que sea análogo al material nuevo)
+- gestionando carga cognitiva (no muy complejo, partirlo en chunks según la audiencia)
+- construcción/expansión de modelos mentales (estructuras de conocimiento cognitivo integral) (nuevo conocimiendo se codifica [encode] en modelos mentales existentes)
+- transferencia de conocimiento (recuperar (_retrieval_) la información de los modelos mentales hacia la memoria de trabajo para utilizarlo en la vida práctica)
+- motivación (para fortalecer el emprendimiento y continuación de esfuerzo para lograr el objetivo educacional		)
 ## Funcionamiento del aprendizaje
-- atencion audio-visual
-- integración y organización en memoria de trabajo con capacidad limitada
+- atencion audio-visual (activación de neuronas espejo en animaciones para habilidades motoras)
+- integración y organización en memoria de trabajo con capacidad limitada (7 chunks)
+	- el contenido de un chunk depende de la experticia del estudiante
+	- solo dos procesadores: visual y auditivo (no sobrecargar uno solo y de preferencia usar ambos)
 - integración de lo de la memoria de trabajo con el conocimiento previo (memoria a largo plazo), generando nuevos modelos mentales
 ## Factores a tener en cuenta para escoger un gráfico
 - objetivo de enseñanza
@@ -48,7 +50,31 @@
 	2. seriedad, marca, utilidad, humor, etc, colorido, blanco negro, profesional, escolar
 4. Define el tipo de gráfico según el tipo de contenido (objetivo)
 	1. según si son factual, conceptual, procedimental, principios), utilizar gráficos según función adecuados
-5.  
-## Recomendaciones:
-- 
-![[Recording 20210520122540.webm]]
+5.  Organizar todos los aspectos relacionados para favorecer el procesamiento cognitivo
+	1.  posiciones, audio texto, espacios, 
+
+
+## Tipo de contenido 
+
+### Procedimientos
+- habilidades de tranferencia cercana
+- incluye decisiones y acciones (si ... entonces ...)
+- Técnicas de enseñanza:
+	- visión general de alto nivel: gráfico que lo resuma
+	- mostrar los pasos: lo más realista posible	
+	- involucramiento con apoyo y retroalimentación: diseña material de apoyo durante y post entrenamiento (claro y autosuficiente, de preferencia sobre procedimientos poco frecuentes); enseña qué no debe hacerse (peligros)
+- Recomendaciones
+		- usa gráficos
+		- usa gráficos dinámicos (animaciones)
+		- muestra en contexto de uso
+		- desde la perspectiva del realizador
+
+## Recomendaciones Prácticas:
+- promueve la formación de chunks potentes para que el aprendizaje sea más rápido. 
+- usa gráficos, especialmente representaciones espaciales y para promover entendimiento explicativo	
+- alínea el tipo de gráfico según el objetivo educacional
+- estudia y analiza los gráficos que te den
+- de preferencia, gráficos simples
+
+
+![[Dayana mala.gif]]
