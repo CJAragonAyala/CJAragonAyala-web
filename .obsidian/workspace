@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/Learning Knowledge/Gráficos para el aprendizaje - Clark.md",
+            "file": "docs/Research Knowledge/Recursos estadística.md",
             "mode": "preview"
           }
         }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276
+    "width": 154
   },
   "right": {
     "id": "b3aacce4f92af227",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Learning Knowledge/Gráficos para el aprendizaje - Clark.md",
+                "file": "docs/Research Knowledge/Recursos estadística.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Learning Knowledge/Gráficos para el aprendizaje - Clark.md"
+                "file": "docs/Research Knowledge/Recursos estadística.md"
               }
             }
           }
@@ -98,15 +98,15 @@
   },
   "active": "f1ebf82919ef005d",
   "lastOpenFiles": [
+    "docs/Research Knowledge/Untitled.md",
+    "docs/Programming Knowledge/Untitled.md",
     "docs/Learning Knowledge/Gráficos para el aprendizaje - Clark.md",
     "docs/Graphic Design Knowledge/Inkscape.md",
     "docs/Learning Knowledge/Untitled.md",
     "docs/Graphic Design Knowledge/Untitled.md",
-    "docs/Research Knowledge/Untitled.md",
     "docs/Medical Knowledge/Untitled.md",
     "docs/Medical Knowledge/MK Index.md",
     "docs/Medical Knowledge/Shock Hipovolémico.md",
-    "docs/Medical Knowledge/Medidas generales de soporte vital.md",
-    "docs/Medical Knowledge/Comprehensive Human Physiology.md"
+    "docs/Medical Knowledge/Medidas generales de soporte vital.md"
   ]
 }

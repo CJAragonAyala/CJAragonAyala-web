@@ -64,10 +64,13 @@
 	- mostrar los pasos: lo más realista posible	
 	- involucramiento con apoyo y retroalimentación: diseña material de apoyo durante y post entrenamiento (claro y autosuficiente, de preferencia sobre procedimientos poco frecuentes); enseña qué no debe hacerse (peligros)
 - Recomendaciones
-		- usa gráficos
-		- usa gráficos dinámicos (animaciones)
-		- muestra en contexto de uso
-		- desde la perspectiva del realizador
+	- usa gráficos representacionales (contexto) y transformacionales (procedimiento en sí)
+	- usa gráficos dinámicos (animaciones, en contexto, desde perspectiva del usuario, no solo serie de imag estáticas -> utiliza ayudas visuales del flujo)
+	- gestiona la carga cognitiva: 
+		- señales de atención: graf dinámico + narración + señalización para enfocar atención
+		- narración oral + resumen de los pasos (4 o 5) en texto + posibilidad de replay y control del usuario
+		- material de apoyo de resumen (dado que no es suficiente el entrenamiento para la automatización)
+		- incluye control del video (pause, retroceder, reversa, velocidad, etc.)
 
 ## Recomendaciones Prácticas:
 - promueve la formación de chunks potentes para que el aprendizaje sea más rápido. 
