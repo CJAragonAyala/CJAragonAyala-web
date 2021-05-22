@@ -1,0 +1,1037 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.12">
+    
+    
+      
+        <title>Gráficos para el aprendizaje Clark - Carlos J. Aragón-Ayala</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4dd2dd8d.min.css">
+      
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#un-gráfico-puede-clasificarse-según" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="Carlos J. Aragón-Ayala" class="md-header-nav__button md-logo" aria-label="Carlos J. Aragón-Ayala">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Carlos J. Aragón-Ayala
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Gráficos para el aprendizaje   Clark
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+          
+
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="../.." class="md-tabs__link">
+        Presentación
+      </a>
+    
+  </li>
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../Graphic%20Design%20Knowledge/Fuente%20de%20ideas%20de%20dise%C3%B1o%20o%20im%C3%A1genes/" class="md-tabs__link">
+          Graphic Design Knowledge
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="./" class="md-tabs__link md-tabs__link--active">
+          Learning Knowledge
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../Medical%20Knowledge/Comprehensive%20Human%20Physiology/" class="md-tabs__link">
+          Medical Knowledge
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../Programming%20Knowledge/New%20Pipe%20in%20base%20R/" class="md-tabs__link">
+          Programming Knowledge
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../Research%20Knowledge/RK%20-%20Index/" class="md-tabs__link">
+          Research Knowledge
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Carlos J. Aragón-Ayala" class="md-nav__button md-logo" aria-label="Carlos J. Aragón-Ayala">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Carlos J. Aragón-Ayala
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Presentación" class="md-nav__link">
+      Presentación
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Graphic Design Knowledge
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Graphic Design Knowledge" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Graphic Design Knowledge
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Graphic%20Design%20Knowledge/Fuente%20de%20ideas%20de%20dise%C3%B1o%20o%20im%C3%A1genes/" title="Fuente de ideas de diseño o imágenes" class="md-nav__link">
+      Fuente de ideas de diseño o imágenes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Graphic%20Design%20Knowledge/Inkscape/" title="Inkscape" class="md-nav__link">
+      Inkscape
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Learning Knowledge
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Learning Knowledge" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Learning Knowledge
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Gráficos para el aprendizaje   Clark
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="Gráficos para el aprendizaje Clark" class="md-nav__link md-nav__link--active">
+      Gráficos para el aprendizaje   Clark
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#un-gráfico-puede-clasificarse-según" class="md-nav__link">
+    Un gráfico puede clasificarse según:
+  </a>
+  
+    <nav class="md-nav" aria-label="Un gráfico puede clasificarse según:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#características-superficiales" class="md-nav__link">
+    características superficiales:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#función" class="md-nav__link">
+    función:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#proceso-cognitivo-que-favorece" class="md-nav__link">
+    proceso cognitivo que favorece:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcionamiento-del-aprendizaje" class="md-nav__link">
+    Funcionamiento del aprendizaje
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#factores-a-tener-en-cuenta-para-escoger-un-gráfico" class="md-nav__link">
+    Factores a tener en cuenta para escoger un gráfico
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#elementos-de-un-gráfico" class="md-nav__link">
+    Elementos de un gráfico
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelo-para-diseñar-gráficos" class="md-nav__link">
+    Modelo para diseñar gráficos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tipo-de-contenido" class="md-nav__link">
+    Tipo de contenido
+  </a>
+  
+    <nav class="md-nav" aria-label="Tipo de contenido">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#procedimientos" class="md-nav__link">
+    Procedimientos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recomendaciones-prácticas" class="md-nav__link">
+    Recomendaciones Prácticas:
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Organizaci%C3%B3n%20de%20material/" title="Organización de material" class="md-nav__link">
+      Organización de material
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Medical Knowledge
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Medical Knowledge" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Medical Knowledge
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Medical%20Knowledge/Comprehensive%20Human%20Physiology/" title="Pasado y Futuro de la Fisiología" class="md-nav__link">
+      Pasado y Futuro de la Fisiología
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Medical%20Knowledge/MK%20Index/" title="Índice" class="md-nav__link">
+      Índice
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Medical%20Knowledge/MK%20Manejo%20general%20de%20soporte%20vital/" title="MK Manejo general de soporte vital" class="md-nav__link">
+      MK Manejo general de soporte vital
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Medical%20Knowledge/Medidas%20generales%20de%20soporte%20vital/" title="Medidas generales de soporte vital" class="md-nav__link">
+      Medidas generales de soporte vital
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Medical%20Knowledge/Shock%20Hipovol%C3%A9mico/" title="Shock Hipovolémico" class="md-nav__link">
+      Shock Hipovolémico
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Programming Knowledge
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Programming Knowledge" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon"></span>
+        Programming Knowledge
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Programming%20Knowledge/New%20Pipe%20in%20base%20R/" title="New Pipe in base R" class="md-nav__link">
+      New Pipe in base R
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Programming%20Knowledge/PK%20index/" title="Índice" class="md-nav__link">
+      Índice
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Programming%20Knowledge/PK%20obsidian%20to%20website/" title="¿Cómo publicar un vault de obsidian en github pages (free public website)?" class="md-nav__link">
+      ¿Cómo publicar un vault de obsidian en github pages (free public website)?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Programming%20Knowledge/React/" title="React" class="md-nav__link">
+      React
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Programming%20Knowledge/Recursos%20Vim/" title="Recursos Vim" class="md-nav__link">
+      Recursos Vim
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Programming%20Knowledge/ignorar%20todos%20los%20archivos%20de%20carpeta/" title="Ignorar todos los archivos de carpeta" class="md-nav__link">
+      Ignorar todos los archivos de carpeta
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Research Knowledge
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Research Knowledge" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon"></span>
+        Research Knowledge
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Research%20Knowledge/RK%20-%20Index/" title="RK Index" class="md-nav__link">
+      RK   Index
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Research%20Knowledge/Recursos%20estad%C3%ADstica/" title="Recursos estadística" class="md-nav__link">
+      Recursos estadística
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Research%20Knowledge/Visualizando%20datos/" title="Visualizando datos" class="md-nav__link">
+      Visualizando datos
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#un-gráfico-puede-clasificarse-según" class="md-nav__link">
+    Un gráfico puede clasificarse según:
+  </a>
+  
+    <nav class="md-nav" aria-label="Un gráfico puede clasificarse según:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#características-superficiales" class="md-nav__link">
+    características superficiales:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#función" class="md-nav__link">
+    función:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#proceso-cognitivo-que-favorece" class="md-nav__link">
+    proceso cognitivo que favorece:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcionamiento-del-aprendizaje" class="md-nav__link">
+    Funcionamiento del aprendizaje
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#factores-a-tener-en-cuenta-para-escoger-un-gráfico" class="md-nav__link">
+    Factores a tener en cuenta para escoger un gráfico
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#elementos-de-un-gráfico" class="md-nav__link">
+    Elementos de un gráfico
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelo-para-diseñar-gráficos" class="md-nav__link">
+    Modelo para diseñar gráficos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tipo-de-contenido" class="md-nav__link">
+    Tipo de contenido
+  </a>
+  
+    <nav class="md-nav" aria-label="Tipo de contenido">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#procedimientos" class="md-nav__link">
+    Procedimientos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recomendaciones-prácticas" class="md-nav__link">
+    Recomendaciones Prácticas:
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                  <h1>Gráficos para el aprendizaje   Clark</h1>
+                
+                <h2 id="un-gráfico-puede-clasificarse-según">Un gráfico puede clasificarse según:<a class="headerlink" href="#un-gráfico-puede-clasificarse-según" title="Permanent link">#</a></h2>
+<h3 id="características-superficiales">características superficiales:<a class="headerlink" href="#características-superficiales" title="Permanent link">#</a></h3>
+<ul>
+<li>estáticas</li>
+<li>dinámicas</li>
+</ul>
+<h3 id="función">función:<a class="headerlink" href="#función" title="Permanent link">#</a></h3>
+<ul>
+<li>decorativa: para decorar, divertir, o motivar</li>
+<li>representacional: mostrar tal y cómo es en la realidad.</li>
+<li>mnemotécnica: ofrece pistas para ayudar a recordar hechos o conceptos, de preferencia en forma audio-visual. Tiene limitaciones contextuales (geografía, idioma)</li>
+<li>explicatoria: representa relaciones (entendimiento según Bloom, conocimiento conceptual)<ul>
+<li>organizatoria: mostrando relaciones cualitativas (mapas concep,diagramas, menus bidimensionales)</li>
+<li>relacional: mostrando relaciones cuantitativas (figuras estadísticas)</li>
+<li>transformacional: muestra relaciones espacio-temporales (movimiento, tiempo), como animaciones o series estáticas, controlado o no controlado por el usuario. </li>
+<li>interpretativa: mostrando entidades invisibles o abstractas, y sus relaciones. gráficos de líneas simples útiles.</li>
+</ul>
+</li>
+</ul>
+<h3 id="proceso-cognitivo-que-favorece">proceso cognitivo que favorece:<a class="headerlink" href="#proceso-cognitivo-que-favorece" title="Permanent link">#</a></h3>
+<ul>
+<li>atención (no sobrecargar memoria de trabajo (MT))</li>
+<li>activación de conocimiento previo (o activarlo o crearlo previo a la lección, hacerle recordar algo que ya sabe y que sea análogo al material nuevo)</li>
+<li>gestionando carga cognitiva (no muy complejo, partirlo en chunks según la audiencia)</li>
+<li>construcción/expansión de modelos mentales (estructuras de conocimiento cognitivo integral) (nuevo conocimiendo se codifica [encode] en modelos mentales existentes)</li>
+<li>transferencia de conocimiento (recuperar (<em>retrieval</em>) la información de los modelos mentales hacia la memoria de trabajo para utilizarlo en la vida práctica)</li>
+<li>motivación (para fortalecer el emprendimiento y continuación de esfuerzo para lograr el objetivo educacional      )</li>
+</ul>
+<h2 id="funcionamiento-del-aprendizaje">Funcionamiento del aprendizaje<a class="headerlink" href="#funcionamiento-del-aprendizaje" title="Permanent link">#</a></h2>
+<ul>
+<li>atencion audio-visual (activación de neuronas espejo en animaciones para habilidades motoras)</li>
+<li>integración y organización en memoria de trabajo con capacidad limitada (7 chunks)<ul>
+<li>el contenido de un chunk depende de la experticia del estudiante</li>
+<li>solo dos procesadores: visual y auditivo (no sobrecargar uno solo y de preferencia usar ambos)</li>
+</ul>
+</li>
+<li>integración de lo de la memoria de trabajo con el conocimiento previo (memoria a largo plazo), generando nuevos modelos mentales</li>
+</ul>
+<h2 id="factores-a-tener-en-cuenta-para-escoger-un-gráfico">Factores a tener en cuenta para escoger un gráfico<a class="headerlink" href="#factores-a-tener-en-cuenta-para-escoger-un-gráfico" title="Permanent link">#</a></h2>
+<ul>
+<li>objetivo de enseñanza</li>
+<li>conocimiento previo de los estudiantes</li>
+<li>caracteristicas propias del gráfico</li>
+<li>costo-beneficio</li>
+<li>ambiente de exposición (dónde se presentará principalmente?)</li>
+</ul>
+<h2 id="elementos-de-un-gráfico">Elementos de un gráfico<a class="headerlink" href="#elementos-de-un-gráfico" title="Permanent link">#</a></h2>
+<ul>
+<li>la GUI, o espacio trasero donde se coloca todo (treatment)</li>
+<li>el gráfico en sí mismo (individual art)</li>
+<li>la organización del espacio (layout)</li>
+</ul>
+<h2 id="modelo-para-diseñar-gráficos">Modelo para diseñar gráficos<a class="headerlink" href="#modelo-para-diseñar-gráficos" title="Permanent link">#</a></h2>
+<ol>
+<li>Definir objetivo:<ul>
+<li>informar/motivar: más estético, visible</li>
+<li>enseñar habilidades de<ul>
+<li>transferencia corta: procedimentales</li>
+<li>transferencia larga: resolución de problemas o juicio</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Evaluar el contexto<ol>
+<li>público objetivo (demografía, conocimiento, discapacidades, recursos)</li>
+<li>lugar de uso</li>
+<li>medio de entrega (libro, celular, internet, etc)</li>
+<li>tus límites técnicos (impuestos, propios)</li>
+</ol>
+</li>
+<li>Define el tema (theme) y características<ol>
+<li>requerimientos de los superiores</li>
+<li>seriedad, marca, utilidad, humor, etc, colorido, blanco negro, profesional, escolar</li>
+</ol>
+</li>
+<li>Define el tipo de gráfico según el tipo de contenido (objetivo)<ol>
+<li>según si son factual, conceptual, procedimental, principios), utilizar gráficos según función adecuados</li>
+</ol>
+</li>
+<li>Organizar todos los aspectos relacionados para favorecer el procesamiento cognitivo<ol>
+<li>posiciones, audio texto, espacios, </li>
+</ol>
+</li>
+</ol>
+<h2 id="tipo-de-contenido">Tipo de contenido<a class="headerlink" href="#tipo-de-contenido" title="Permanent link">#</a></h2>
+<h3 id="procedimientos">Procedimientos<a class="headerlink" href="#procedimientos" title="Permanent link">#</a></h3>
+<ul>
+<li>habilidades de tranferencia cercana</li>
+<li>incluye decisiones y acciones (si ... entonces ...)</li>
+<li>Técnicas de enseñanza:<ul>
+<li>visión general de alto nivel: gráfico que lo resuma</li>
+<li>mostrar los pasos: lo más realista posible    </li>
+<li>involucramiento con apoyo y retroalimentación: diseña material de apoyo durante y post entrenamiento (claro y autosuficiente, de preferencia sobre procedimientos poco frecuentes); enseña qué no debe hacerse (peligros)</li>
+</ul>
+</li>
+<li>Recomendaciones<ul>
+<li>usa gráficos representacionales (contexto) y transformacionales (procedimiento en sí)</li>
+<li>usa gráficos dinámicos (animaciones, en contexto, desde perspectiva del usuario, no solo serie de imag estáticas -&gt; utiliza ayudas visuales del flujo)</li>
+<li>gestiona la carga cognitiva: <ul>
+<li>señales de atención: graf dinámico + narración + señalización para enfocar atención</li>
+<li>narración oral + resumen de los pasos (4 o 5) en texto + posibilidad de replay y control del usuario</li>
+<li>material de apoyo de resumen (dado que no es suficiente el entrenamiento para la automatización)</li>
+<li>incluye control del video (pause, retroceder, reversa, velocidad, etc.)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="recomendaciones-prácticas">Recomendaciones Prácticas:<a class="headerlink" href="#recomendaciones-prácticas" title="Permanent link">#</a></h2>
+<ul>
+<li>promueve la formación de chunks potentes para que el aprendizaje sea más rápido. </li>
+<li>usa gráficos, especialmente representaciones espaciales y para promover entendimiento explicativo </li>
+<li>alínea el tipo de gráfico según el objetivo educacional</li>
+<li>estudia y analiza los gráficos que te den</li>
+<li>de preferencia, gráficos simples</li>
+</ul>
+<p><img alt="Dayana mala.gif" src="../../attachment/Dayana%20mala.gif" /></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../../Graphic%20Design%20Knowledge/Inkscape/" title="Inkscape" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Inkscape
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../Organizaci%C3%B3n%20de%20material/" title="Organización de material" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Organización de material
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.3636a4ec.min.js"></script>
+      <script src="../../assets/javascripts/bundle.e9fe3281.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ["navigation.expand", "tabs"],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
